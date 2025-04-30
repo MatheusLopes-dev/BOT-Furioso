@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FURIOSO - O Bot da Pantera</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <h1>FURIOSO</h1>
+        <div class="chat-box" id="chatBox">
+            <div class="message bot">
+                <img src="img/pantera-preta.png" alt="Pantera Preta" class="bot-avatar">
+                E aí, parça? Tô com o manto da FURIA, pronto pra te contar tudo! 😎 Qual a boa? Digita algo ou clica nos botões!
+            </div>
+        </div>
+        <div class="input-area">
+            <input type="text" id="userInput" placeholder="Manda teu papo aqui..." onkeypress="if(event.key === 'Enter') sendMessage()">
+            <button onclick="sendMessage()">Rusha!</button>
+        </div>
+        <div class="quick-buttons">
+            <button onclick="quickMessage('jogos')">Próximos jogos</button>
+            <button onclick="quickMessage('dicas')">Dicas de CS</button>
+            <button onclick="quickMessage('meme')">Manda um meme!</button>
+            <button onclick="quickMessage('trivia')">Trivia da FURIA</button>
+            <button onclick="quickMessage('loja')">Loja da FURIA</button>
+        </div>
+        <audio id="clutchSound" src="img/clutch.mp3"></audio>
+        <audio id="crowdSound" src="img/crowd.mp3"></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
