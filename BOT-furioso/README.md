@@ -1,18 +1,53 @@
-# FURIAbot 🐆
+# 🐆 FURIOSO - O Bot da Pantera
 
-Um chatbot interativo pra engajar os fãs da FURIA, com mais de 30 interações, links destacados pro Instagram dos jogadores e loja oficial, além das regras da Kings League! Feito com HTML, CSS e JavaScript, com a vibe braba da FURIA: gírias, sons, memes e easter eggs.
+FURIOSO é um chatbot interativo e estilizado que representa a energia da FURIA Esports. Ele conversa com os usuários de maneira descontraída e traz informações sobre:
 
-## 🎯 Objetivo
+- Jogadores da FURIA no CS2 e na Kings League
+- Dicas de CS
+- Próximos jogos
+- Trivia e curiosidades
+- Memes e zoeiras da comunidade
+- Loja oficial da FURIA
 
-O FURIAbot foi criado pra:
+## 🚀 Como usar
 
-- Engajar os fãs da FURIA com interações sobre jogadores de CS2 e Kings League, jogos, memes, trivias e mais.
-- Mostrar as regras da Kings League de forma descontraída.
-- Exibir links pro Instagram dos jogadores e pra loja oficial da FURIA, destacados no final das mensagens em um container cinza claro com borda laranja.
+1. Clone ou baixe o repositório.
+2. Abra o arquivo `index.html` no navegador.
+3. Interaja com o bot digitando na caixa de mensagem ou clicando nos botões rápidos.
 
-## 🚀 Como Rodar
+## 📁 Estrutura do projeto
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/SEU-USUARIO/FURIAbot.git
-   ```
+```
+/furioso-bot
+│
+├── index.html         # Estrutura da interface do chat
+├── style.css          # Estilos visuais (fonte, cores, layout)
+├── script.js          # Lógica do chatbot e das interações
+├── img/
+│   ├── pantera-preta.png   # Avatar do bot
+│   ├── clutch.mp3          # Efeito sonoro de clutch
+│   └── crowd.mp3           # Efeito sonoro da torcida
+```
+
+## 🎯 Funcionalidades
+
+- Respostas personalizadas com links para perfis do Instagram
+- Sons de torcida e clutch que tocam dependendo da interação
+- Botões rápidos para facilitar a navegação
+- Scroll automático no chat
+- Estilo visual moderno com fonte Montserrat
+
+## 💡 Ideias para melhorias
+
+- Adicionar integração com uma API real para próximos jogos
+- Criar respostas dinâmicas com base em dados atualizados
+- Suporte a mais mídias como imagens e vídeos no chat
+- Versão responsiva para mobile aprimorada
+
+## 👨‍💻 Feito por
+
+Matheus Domingues dos Santos — projeto feito como parte de um desafio criativo e técnico envolvendo a comunidade FURIA.
+
+---
+
+💬 Bora conversar com o FURIOSO e sentir a energia da Pantera! 🐾
