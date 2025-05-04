@@ -76,10 +76,8 @@ function getBotResponse(input) {
     // Respostas para presidentes da Kings League
     else if (input.includes("neymar")) {
         return "Neymar? O presidente da FURIA na Kings League, o rei da zoeira e da caneta!<br><span class='link-container'>Instagram: <a href='https://www.instagram.com/neymarjr' target='_blank'>@neymarjr</a></span>";
-    } else if (input.includes("gaules")) {
-        return "Gaules? O chefe da torcida, leva a FURIA no peito!<br><span class='link-container'>Instagram: <a href='https://www.instagram.com/gaules' target='_blank'>@gaules</a></span>";
-    }
-
+    } 
+    
     // Respostas gerais
     else if (input.includes("jogos") || input.includes("jogo")) {
         return "A FURIA tá com jogo brabo de CS2 na ESL Pro League contra a MIBR, dia 28! No Kings League, rola confronto na Kings World Cup, dia 30. Qual tu tá mais hypado pra ver? 🐆";
